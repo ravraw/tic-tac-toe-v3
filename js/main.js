@@ -1,4 +1,4 @@
-
+(function(){
 // -----------------------VARIABLES---------------//
 
 let singlePlayer = false;
@@ -265,7 +265,7 @@ startDoublePlayerGame();
 $buttonStartGame.on('click',startGame);
 $buttonRestartGame.on('click',startNewGame);
 
-
+})();
 
 
 
